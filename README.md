@@ -1,42 +1,43 @@
-# STAT7670
-Course webpage for Modern Methods in Multivariate Statistics, STAT 7630, Spring 2025
+# Modern Methods in Multivariate Analysis
+## STAT 7630, Spring 2025
 
-# Applied Linear Models
-## STAT 7630, Spring 2024
-
-- Time: 1000-1115 TR
+- Time: 230-345 TR
 - Room: 1026 Pavilion I
-- Textbook: A Modern Approach to Regression with R, Simon Sheather, Springer, [https://link.springer.com/book/10.1007/978-0-387-09608-7]
-- Supplementary Materials: [https://gattonweb.uky.edu/sheather/book/]
+- Textbook: 
+    An Introduction to Multivariate Statistical Analysis, 3rd Edition
+    Theodore W. Anderson 
+    ISBN: 978-0-471-36091-9
+    July 2003
+    [https://www.wiley.com/en-us/An+Introduction+to+Multivariate+Statistical+Analysis%2C+3rd+Edition-p-9780471360919]
+- Supplementary Materials: 
+    Handbook of Applied Multivariate Statistics and Mathematical Modeling 1st Edition
+    Howard E.A. Tinsley (Editor), Steven D. Brown
+    [https://www.amazon.com/Handbook-Multivariate-Statistics-Mathematical-Modeling/dp/0126913609]
 - Credits: 3
 
 - Instructor: Dustin Pluta, PhD
 - Email: dpluta@augusta.edu
 - Office: 1011 Pavilion I
-- Office Hrs: 1200-1300 W, and by appointment
+- Office Hrs: 1200-1300 T, and by appointment
 
 ### Catalog Course Description
 
-> This course will cover simple linear regresssion with extension to multiple linear regression models including model selection, validation, diagnostics and remedial measures. Additionally, one-way analysis of variance (ANOVA), multiple > >treatment comparisons, factorial ANOVA, randomized complete-block designs, analysis of covariance (ANCOVA), ANOVA with unbalanced data, fixed-/random-/mixed-effect models, repeated-measures designs, and nested designs.
+>This course is designed as a first course in multivariate analysis, with emphasis on learning theoretical concepts and corresponding analytical tools in R. Topics to be covered include: discrete and continuous multivariate distributions, MANOVA, multivariate multiple regression, principal component analysis, discriminant analysis, canonical correlation analysis, dimension reduction methods such as multidimensional scaling and stochastic neighborhood embedding, data visualization, Gaussian graphical models and high dimensional inference. Upon successful completion of the course, the students will have sufficient practical knowledge for analyzing any multivariate data set. In this course, topics relevant to modern day problems in big data analysis are discussed and the multivariate tools necessary to tackle them are discussed.
 > 
 >Lecture Hours: 3
 >
 >Grade Mode: Normal, Audit
->Prerequisites: STAT7110 >= C and STAT7510 >= C
+>Prerequisites: STAT7630 >= C
 >Repeat Status: No
 >Schedule Type: Lecture, Asynchronous Instruction
-
-### Student Learning Outcomes
-
-At the end of the course, students will be capable of analyzing data using linear regression, ANOVA, mixed-effect models, and other related methods.  This will include cleaning and visualization of the data, choosing an appropriate model design, diagnosing model performance, and preparing summary plots and a written report interpreting the results of the analysis.
 
 ### Course Evaluation and Grading
 
 #### Assessments
 
-- 4 Homework Assignments **(50%)**
+- 5 Homework Assignments **(50%)**
 - 1 Midterm Exam **(20%)**
-- 1 (Course Project+Final Exam) **(30%)**
+- 1 Course Project **(30%)**
 
 ##### Homework Assignments
 
@@ -56,9 +57,7 @@ At the end of the course, students will be capable of analyzing data using linea
 
 ##### Course Project+Final Exam
 
-Students will be tasked with conducting a thorough analysis on a real world data set, producing a written report that includes a practical interpretation of results. Students will need to: find a real world data set, identify a question of interest that can be assessed with the data, develop and apply the appropriate linear model, and interpret the model results to answer the motivating question.  Students will be required to make use of statistical modeling software (R, Python, ~~SAS~~) to conduct their analyses and generate the required plots.
-
-A take home final exam will be assigned as a component of the course project.  Details provided in class.
+Students will be tasked with conducting a thorough analysis on a real world data set, producing a written report that includes a practical interpretation of results. Students will need to: find a real world data set, identify a question of interest that can be assessed with the data, develop and apply the appropriate set of methods from the course, and interpret the analysis results in the context of the motivating question.  Students will be required to make use of statistical modeling software (R, Python) to conduct their analyses and generate the required plots.
 
 #### Grading Scale
 
