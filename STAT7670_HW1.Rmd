@@ -1,0 +1,51 @@
+---
+title: "STAT 7670, Homework 1"
+author: "D. Pluta"
+date: '2025-01-30'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Due: 02/13/2025
+
+1. Simulating Estimation Error for Covariances
+
+We will consider simulating an $n \times p$ matrix $X \sim N(0, \Sigma)$ to 
+estimate the covariance matrix $\Sigma$.  
+
+For each setting, compute the MSE over 5000 iterations.
+
+a.  *Vary n:* Let $p = 10$, and $\Sigma$ be the $p \times p$ identity matrix.  Simulate 
+the MSE for $n = 25, 50, 100, 500, 1000$ and plot your results.
+
+b. *Vary p:* Let $n = 100$ and $\Sigma$ be the $p \times p$ identity matrix.  Compute the MSE 
+for $p = 10, 50, 100, 500, 1000$.
+
+c. Repeat parts (a) and (b) with $\Sigma$ equal to the $AR(1)$ covariance matrix 
+with unit variance and lag 1 correlation equal to $\rho = 1 / \sqrt{p}$.
+
+2. a. Compute the Spectral Decomposition of $\Sigma = \begin{pmatrix} 2 & 0.3\\ 0.3 & 1\end{pmatrix}$.
+b. Produce a plot of the ellipse corresponding to $\Sigma$.  Your plot should include vectors showing the major and minor axes of the ellipse.
+c. Sample 250 points from $N(0, \Sigma)$.  Replicate the plot from (b), now including the sampled points.
+
+3. For this problem we will consider the built-in R dataset 'attitude'.  This data consists of 7 variables and 30 observations.  We will take the variable *rating* as the response, and the remaining 6 variables as covariates.
+
+a. Fit a linear regression of *rating* against all covariates.  Compute a 95% confidence interval for 
+the effect of *complaints*.
+b. Produce a scree plot of the variance explained by the PCs.  Based on this plot, how many PCs would you suggest retaining?
+c. Fit a linear regression with a single principal component of the covariates.  What is a 95% confidence 
+interval for the effect of the PC?
+d. Based on the linear regression fit from (c), find a 95% confidence interval for the effect of *complaints* on *rating*.  How does this compare to the model estimate in (a)?
+
+4. Problems from Anderson, Chapter 2:
+
+  2.6, 2.10, 2.12, 2.25
+  
+5. Anderson Chapter 11:
+
+  11.1, 11.5a, 11.5b, 11.17
+  
+  For PhD students: 11.10
+  
